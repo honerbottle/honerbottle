@@ -1,0 +1,117 @@
+@keyframes disappear {
+  from {
+    transform: scale(100%);
+  }
+
+  20% {
+    transform: scale(30%);
+    background-color: gray;
+  }
+
+  80% {
+    transform: translateY(200%) scale(30%);
+    background-color: black;
+  }
+  to {
+    transform: translateY(200%) scale(30%);
+  }
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(200%) scale(110%);
+    z-index: 20;
+  }
+
+  20% {
+    transform: translateY(200%) scale(110%);
+    z-index: 20;
+  }
+
+  80% {
+    transform: scale(110%) translateY(0);
+    z-index: 20;
+  }
+  to {
+    transform: translateX(0) scale(100%);
+    z-index: 2;
+  }
+}
+
+@keyframes gumul1 {
+  from {
+  }
+
+  70% {
+    transform: translateX(160px);
+    width: 40px;
+  }
+
+  to {
+    transform: translateX(200px);
+    width: 0px;
+  }
+}
+
+@keyframes gumul2 {
+  from {
+    height: 0px;
+  }
+
+  30% {
+    transform: translateY(0);
+    height: 40px;
+  }
+
+  70% {
+    transform: translateY(160px);
+    height: 40px;
+  }
+
+  to {
+    transform: translateY(200px);
+    height: 0px;
+  }
+}
+
+@keyframes gumul3 {
+  from {
+    width: 0px;
+  }
+
+  30% {
+    transform: translateX(0);
+    width: 40px;
+  }
+
+  70% {
+    transform: translateX(-160px);
+    width: 40px;
+  }
+
+  to {
+    transform: translateX(-200px);
+    width: 0px;
+  }
+}
+
+@keyframes gumul4 {
+  from {
+    height: 0px;
+  }
+
+  30% {
+    transform: translateY(0);
+    height: 40px;
+  }
+
+  70% {
+    transform: translateY(-160px);
+    height: 40px;
+  }
+
+  to {
+    transform: translateY(-200px);
+    height: 0px;
+  }
+}
