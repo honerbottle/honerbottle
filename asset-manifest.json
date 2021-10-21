@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e76a0f17.chunk.css",
-    "main.js": "/static/js/main.f4149dde.chunk.js",
-    "main.js.map": "/static/js/main.f4149dde.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7ae0ba7e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7ae0ba7e.js.map",
-    "static/js/2.3c376539.chunk.js": "/static/js/2.3c376539.chunk.js",
-    "static/js/2.3c376539.chunk.js.map": "/static/js/2.3c376539.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.e76a0f17.chunk.css.map": "/static/css/main.e76a0f17.chunk.css.map",
-    "static/js/2.3c376539.chunk.js.LICENSE.txt": "/static/js/2.3c376539.chunk.js.LICENSE.txt",
-    "static/media/36102.4e34f497.svg": "/static/media/36102.4e34f497.svg"
+    "main.css": "/honerbottle/static/css/main.e76a0f17.chunk.css",
+    "main.js": "/honerbottle/static/js/main.8b090c71.chunk.js",
+    "main.js.map": "/honerbottle/static/js/main.8b090c71.chunk.js.map",
+    "runtime-main.js": "/honerbottle/static/js/runtime-main.3d0d8cef.js",
+    "runtime-main.js.map": "/honerbottle/static/js/runtime-main.3d0d8cef.js.map",
+    "static/js/2.17143723.chunk.js": "/honerbottle/static/js/2.17143723.chunk.js",
+    "static/js/2.17143723.chunk.js.map": "/honerbottle/static/js/2.17143723.chunk.js.map",
+    "index.html": "/honerbottle/index.html",
+    "static/css/main.e76a0f17.chunk.css.map": "/honerbottle/static/css/main.e76a0f17.chunk.css.map",
+    "static/js/2.17143723.chunk.js.LICENSE.txt": "/honerbottle/static/js/2.17143723.chunk.js.LICENSE.txt",
+    "static/media/36102.4e34f497.svg": "/honerbottle/static/media/36102.4e34f497.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ae0ba7e.js",
-    "static/js/2.3c376539.chunk.js",
+    "static/js/runtime-main.3d0d8cef.js",
+    "static/js/2.17143723.chunk.js",
     "static/css/main.e76a0f17.chunk.css",
-    "static/js/main.f4149dde.chunk.js"
+    "static/js/main.8b090c71.chunk.js"
   ]
 }
