@@ -9,6 +9,7 @@ const Body = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 `;
 
 // #1 도킹 애니메이션
@@ -237,10 +238,10 @@ const Playground: React.FC<PlaygroundProps> = () => {
       x: boxRef.current!.getBoundingClientRect().x,
       y: boxRef.current!.getBoundingClientRect().y,
     };
-    boxRef.current?.addEventListener("dragend", (e) => {
+    boxRef.current?.addEventListener("touchend", (e) => {
       let coord: Coordinate = {
-        x: e.clientX - 30,
-        y: e.clientY - 30,
+        x: e.changedTouches[0].clientX - 30,
+        y: e.changedTouches[0].clientY - 30,
       };
       boxRef.current!.style.top = coord.y + "px";
       boxRef.current!.style.left = coord.x + "px";

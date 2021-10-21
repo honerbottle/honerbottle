@@ -1,5 +1,6 @@
 {
   "name": "honor-bottle-portfolio",
+  "homepage": "https://honerbottle.github.io/honerbottle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
