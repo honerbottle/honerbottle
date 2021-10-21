@@ -1,9 +1,17 @@
 import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Playground from "./Playground";
 
 interface RoutesProps {}
 
 const Routes: React.FC<RoutesProps> = () => {
-  return <div>Routes</div>;
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/playground" component={Playground} />
+      </Switch>
+    </BrowserRouter>
+  );
 };
 
 export default Routes;
