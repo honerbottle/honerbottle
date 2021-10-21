@@ -6,7 +6,7 @@ interface RoutesProps {}
 
 const Routes: React.FC<RoutesProps> = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="https://honerbottle.github.io/honerbottle">
       <Switch>
         <Route exact path="/" component={Playground} />
       </Switch>
