@@ -8,7 +8,7 @@ const Routes: React.FC<RoutesProps> = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/playground" component={Playground} />
+        <Route exact path="/" component={Playground} />
       </Switch>
     </BrowserRouter>
   );
