@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/honerbottle/static/css/main.e76a0f17.chunk.css",
-    "main.js": "/honerbottle/static/js/main.9fbfa1a2.chunk.js",
-    "main.js.map": "/honerbottle/static/js/main.9fbfa1a2.chunk.js.map",
+    "main.js": "/honerbottle/static/js/main.2aaabe3e.chunk.js",
+    "main.js.map": "/honerbottle/static/js/main.2aaabe3e.chunk.js.map",
     "runtime-main.js": "/honerbottle/static/js/runtime-main.3d0d8cef.js",
     "runtime-main.js.map": "/honerbottle/static/js/runtime-main.3d0d8cef.js.map",
     "static/js/2.17143723.chunk.js": "/honerbottle/static/js/2.17143723.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.3d0d8cef.js",
     "static/js/2.17143723.chunk.js",
     "static/css/main.e76a0f17.chunk.css",
-    "static/js/main.9fbfa1a2.chunk.js"
+    "static/js/main.2aaabe3e.chunk.js"
   ]
 }
